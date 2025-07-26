@@ -4,7 +4,7 @@
 
 ### 1. Code Analysis (3 pts)
 
-#### 1.1 Original Code with Comments:
+#### 1.1 Original Code with Comments
 
 ```python
 
@@ -231,13 +231,13 @@ countdown_list = [i for i in range(n, 0, -1)]
 
 Advantage and Drawback of Generators:
 
-**Advantage**: Memory Efficiency. Generators produce items one at a time and only when required.
-They don't store the entire sequence in memory, making them ideal for working
-with very large datasets or infinite sequences.
+**Advantage**: Memory Efficiency. Generators produce items one at a time and only 
+when required. They don't store the entire sequence in memory, making them ideal 
+for working with very large datasets or infinite sequences.
 
 **Drawback**: One-time Use. A generator can only be iterated over once.
-After all its values have been yielded, it is exhausted and cannot be reused or reset.
-You would need to create a new generator object to iterate again.
+After all its values have been yielded, it is exhausted and cannot be reused 
+or reset. You would need to create a new generator object to iterate again.
 
 #### A.4. State Management
 
